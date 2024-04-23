@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Definition'
+define service ZPURC_SD {
+  expose ZC_PURC_HDR_R as PoHdr;
+  expose ZC_PURC_ITM_R as PoItm;
+}
